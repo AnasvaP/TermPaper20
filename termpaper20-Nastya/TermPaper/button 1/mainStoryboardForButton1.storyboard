@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2w7-RK-y42">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Будильник-->
+        <scene sceneID="sqK-2a-zwL">
+            <objects>
+                <viewController storyboardIdentifier="Button1VC" id="2w7-RK-y42" customClass="Button1VC" customModule="TermPaper" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7ex-kT-eKl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5nw-ju-2bf">
+                                <rect key="frame" x="351" y="244" width="55" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="1dI-Iv-LzA"/>
+                                    <constraint firstAttribute="width" constant="55" id="3j9-hI-kLH"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="star.fill" catalog="system">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="okButton2:" destination="2w7-RK-y42" eventType="touchUpInside" id="W7c-Ml-bCy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LAj-YZ-Ibs">
+                                <rect key="frame" x="8" y="244" width="55" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="55" id="NBn-0n-YIU"/>
+                                    <constraint firstAttribute="height" constant="55" id="is6-a1-rvt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="star" catalog="system">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="okButton1:" destination="2w7-RK-y42" eventType="touchUpInside" id="5AW-9C-Lr7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RXv-2d-Xvp">
+                                <rect key="frame" x="274" y="20" width="120" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="2BY-V9-sbI"/>
+                                    <constraint firstAttribute="width" constant="120" id="uX1-IE-jfO"/>
+                                </constraints>
+                                <state key="normal" image="soomAndMoon">
+                                    <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="doneButtonBig:" destination="2w7-RK-y42" eventType="touchUpInside" id="c3t-bg-qYE"/>
+                                    <action selector="sendNotificationForBigDP:" destination="2w7-RK-y42" eventType="touchUpInside" id="qqt-5E-R4q"/>
+                                </connections>
+                            </button>
+                            <datePicker multipleTouchEnabled="YES" contentMode="scaleToFill" restorationIdentifier="DatePickerVC" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="Jni-Cd-AAN" customClass="DatePickerVC" customModule="TermPaper" customModuleProvider="target">
+                                <rect key="frame" x="20" y="35" width="289" height="190"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="190" id="fxq-Fu-XZp"/>
+                                </constraints>
+                                <locale key="locale" localeIdentifier="uk_UA"/>
+                            </datePicker>
+                            <pickerView clipsSubviews="YES" tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4tP-ca-tHS">
+                                <rect key="frame" x="16" y="373" width="382" height="150"/>
+                                <color key="tintColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="KPF-fa-gBc"/>
+                                </constraints>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" highlighted="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yP5-iT-UZp">
+                                <rect key="frame" x="16" y="543" width="382" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="32"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="+ побажання))">
+                                    <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="wishButton:" destination="2w7-RK-y42" eventType="touchUpInside" id="spT-q4-naJ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="моїм повідомленням буде..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wOg-6H-AcK">
+                                <rect key="frame" x="82" y="244" width="250" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="ii7-Ob-xcz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Menlo-BoldItalic" family="Menlo" pointSize="16"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.91632848980000003" green="0.83687734599999997" blue="0.79929918050000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="azM-8o-k1X" firstAttribute="trailing" secondItem="RXv-2d-Xvp" secondAttribute="trailing" constant="20" id="4Du-r3-c9G"/>
+                            <constraint firstItem="Jni-Cd-AAN" firstAttribute="leading" secondItem="azM-8o-k1X" secondAttribute="leading" constant="20" id="EmX-sf-wYh"/>
+                            <constraint firstItem="azM-8o-k1X" firstAttribute="trailing" secondItem="yP5-iT-UZp" secondAttribute="trailing" constant="16" id="GvY-b0-d9E"/>
+                            <constraint firstItem="5nw-ju-2bf" firstAttribute="top" secondItem="wOg-6H-AcK" secondAttribute="top" id="IWM-4M-Eja"/>
+                            <constraint firstItem="wOg-6H-AcK" firstAttribute="top" secondItem="Jni-Cd-AAN" secondAttribute="bottom" constant="19" id="J8C-nt-bJc"/>
+                            <constraint firstItem="yP5-iT-UZp" firstAttribute="top" secondItem="4tP-ca-tHS" secondAttribute="bottom" constant="20" id="JS0-zV-y4n"/>
+                            <constraint firstItem="LAj-YZ-Ibs" firstAttribute="top" secondItem="wOg-6H-AcK" secondAttribute="top" id="JSx-W5-iB4"/>
+                            <constraint firstItem="azM-8o-k1X" firstAttribute="trailing" secondItem="4tP-ca-tHS" secondAttribute="trailing" constant="16" id="Ko3-Mg-qXW"/>
+                            <constraint firstItem="azM-8o-k1X" firstAttribute="trailing" secondItem="Jni-Cd-AAN" secondAttribute="trailing" constant="105" id="V7W-wP-vnS"/>
+                            <constraint firstItem="azM-8o-k1X" firstAttribute="trailing" secondItem="5nw-ju-2bf" secondAttribute="trailing" constant="8" id="avh-Vr-ghj"/>
+                            <constraint firstItem="LAj-YZ-Ibs" firstAttribute="leading" secondItem="azM-8o-k1X" secondAttribute="leading" constant="8" id="gRD-Nb-LjQ"/>
+                            <constraint firstItem="4tP-ca-tHS" firstAttribute="leading" secondItem="azM-8o-k1X" secondAttribute="leading" constant="16" id="gtu-NV-kvr"/>
+                            <constraint firstItem="4tP-ca-tHS" firstAttribute="centerY" secondItem="7ex-kT-eKl" secondAttribute="centerY" constant="80" id="hlM-Iu-mmR"/>
+                            <constraint firstItem="Jni-Cd-AAN" firstAttribute="top" secondItem="azM-8o-k1X" secondAttribute="top" constant="35" id="oDC-VQ-vsO"/>
+                            <constraint firstItem="yP5-iT-UZp" firstAttribute="leading" secondItem="azM-8o-k1X" secondAttribute="leading" constant="16" id="oiR-LU-d9Y"/>
+                            <constraint firstItem="wOg-6H-AcK" firstAttribute="centerX" secondItem="7ex-kT-eKl" secondAttribute="centerX" id="q6y-3k-zA3"/>
+                            <constraint firstItem="RXv-2d-Xvp" firstAttribute="top" secondItem="azM-8o-k1X" secondAttribute="top" constant="20" id="wvc-a7-jIx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="azM-8o-k1X"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="i4M-n5-BBe" appends="YES" id="orb-qe-acI"/>
+                            <outletCollection property="gestureRecognizers" destination="4z3-BI-XuK" appends="YES" id="7TX-sd-CCC"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" title="Будильник" largeTitleDisplayMode="always" id="1uS-8J-2jN"/>
+                    <connections>
+                        <outlet property="dataPickerOutlet" destination="Jni-Cd-AAN" id="ZzD-ff-RMG"/>
+                        <outlet property="pikerForMassage" destination="4tP-ca-tHS" id="j5e-Em-TrO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F79-Qe-bKF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer delaysTouchesEnded="NO" minimumNumberOfTouches="1" id="i4M-n5-BBe">
+                    <connections>
+                        <action selector="panGestureRecognizer:" destination="2w7-RK-y42" id="281-ej-rIP"/>
+                    </connections>
+                </panGestureRecognizer>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="4z3-BI-XuK">
+                    <connections>
+                        <action selector="longPressGestureRecognizerButton:" destination="2w7-RK-y42" id="LwG-bC-9HA"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-301.60000000000002" y="1540.4797601199402"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="soomAndMoon" width="166.66667175292969" height="166.66667175292969"/>
+        <image name="star" catalog="system" width="128" height="116"/>
+        <image name="star.fill" catalog="system" width="128" height="116"/>
+    </resources>
+</document>

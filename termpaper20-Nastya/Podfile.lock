@@ -1,0 +1,16 @@
+PODS:
+  - WeatherKit (0.1.7)
+
+DEPENDENCIES:
+  - WeatherKit
+
+SPEC REPOS:
+  trunk:
+    - WeatherKit
+
+SPEC CHECKSUMS:
+  WeatherKit: 228125ba1da7c6720e29574351806e7628a86ad2
+
+PODFILE CHECKSUM: 0aae198f9ac4225884b9823c2b58c2af7516bed9
+
+COCOAPODS: 1.9.1

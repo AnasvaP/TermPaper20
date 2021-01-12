@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1316686FE28F8CDB77AEA308 /* Pods_TermPaper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 428DC1F09D2298B619AA0974 /* Pods_TermPaper.framework */; };
+		FE17206F24573E5C001E77CF /* BluredVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE17206E24573E5B001E77CF /* BluredVC.swift */; };
+		FE22A55B24290BB2008BE3D3 /* DatePickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE22A55A24290BB2008BE3D3 /* DatePickerVC.swift */; };
+		FE5B694C2473F43C00C5B1E8 /* TermpaperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5B694B2473F43C00C5B1E8 /* TermpaperTests.swift */; };
+		FE5FA17D245B31110022645B /* MainForWeather.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE5FA17B245B31110022645B /* MainForWeather.storyboard */; };
+		FE5FA17E245B31110022645B /* weatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5FA17C245B31110022645B /* weatherVC.swift */; };
+		FE7BF3BA241D09DA00EE8F3D /* mainStoryboardForButton1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE7BF3B9241D09DA00EE8F3D /* mainStoryboardForButton1.storyboard */; };
+		FE7BF3C2241D0AD100EE8F3D /* Button1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7BF3C1241D0AD100EE8F3D /* Button1VC.swift */; };
+		FECB226B2462D7C300BF5DD0 /* mainForButton2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECB226A2462D7C300BF5DD0 /* mainForButton2VC.swift */; };
+		FECB22712462E52200BF5DD0 /* mainButton2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FECB22702462E52200BF5DD0 /* mainButton2.storyboard */; };
+		FEEF008D2406DA010011FA03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEF008C2406DA010011FA03 /* AppDelegate.swift */; };
+		FEEF008F2406DA010011FA03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEF008E2406DA010011FA03 /* SceneDelegate.swift */; };
+		FEEF00942406DA010011FA03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEEF00922406DA010011FA03 /* Main.storyboard */; };
+		FEEF00962406DA070011FA03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEEF00952406DA070011FA03 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE5B694E2473F43C00C5B1E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEEF00812406DA010011FA03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEEF00882406DA010011FA03;
+			remoteInfo = TermPaper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		428DC1F09D2298B619AA0974 /* Pods_TermPaper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TermPaper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59E20EEFA0F381889CFBBB60 /* Pods-TermPaper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TermPaper.debug.xcconfig"; path = "Target Support Files/Pods-TermPaper/Pods-TermPaper.debug.xcconfig"; sourceTree = "<group>"; };
+		C2533BE5530438D9DC9B16BF /* Pods-TermPaper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TermPaper.release.xcconfig"; path = "Target Support Files/Pods-TermPaper/Pods-TermPaper.release.xcconfig"; sourceTree = "<group>"; };
+		FE17206E24573E5B001E77CF /* BluredVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluredVC.swift; sourceTree = "<group>"; };
+		FE22A55A24290BB2008BE3D3 /* DatePickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerVC.swift; sourceTree = "<group>"; };
+		FE5B69492473F43C00C5B1E8 /* TermpaperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TermpaperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE5B694B2473F43C00C5B1E8 /* TermpaperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermpaperTests.swift; sourceTree = "<group>"; };
+		FE5B694D2473F43C00C5B1E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE5FA17B245B31110022645B /* MainForWeather.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainForWeather.storyboard; sourceTree = "<group>"; };
+		FE5FA17C245B31110022645B /* weatherVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = weatherVC.swift; sourceTree = "<group>"; };
+		FE669546245B270600FAFD66 /* Aeris.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = Aeris.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE66D28F245B0A4800CADCCA /* ForecastView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ForecastView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE66D293245B0C7C00CADCCA /* OpenWeatherMapAPIConsumer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OpenWeatherMapAPIConsumer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE7BF3B9241D09DA00EE8F3D /* mainStoryboardForButton1.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = mainStoryboardForButton1.storyboard; sourceTree = "<group>"; };
+		FE7BF3C1241D0AD100EE8F3D /* Button1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button1VC.swift; sourceTree = "<group>"; };
+		FE9DDAAA245AE6DC00338A62 /* WeatherKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WeatherKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE9DDAAE245AE8B300338A62 /* WeatherKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WeatherKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE9DDAB0245AEA7200338A62 /* WeatherKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WeatherKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE9DDABA245B008000338A62 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE9DDABB245B008000338A62 /* OpenWeatherSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OpenWeatherSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE9DDAC1245B008500338A62 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FECB226A2462D7C300BF5DD0 /* mainForButton2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainForButton2VC.swift; sourceTree = "<group>"; };
+		FECB22702462E52200BF5DD0 /* mainButton2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = mainButton2.storyboard; sourceTree = "<group>"; };
+		FEEF00892406DA010011FA03 /* TermPaper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TermPaper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEEF008C2406DA010011FA03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FEEF008E2406DA010011FA03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FEEF00932406DA010011FA03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEEF00952406DA070011FA03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEEF009A2406DA070011FA03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE5B69462473F43C00C5B1E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEEF00862406DA010011FA03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1316686FE28F8CDB77AEA308 /* Pods_TermPaper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44F0455EFD433BFF74A2F596 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59E20EEFA0F381889CFBBB60 /* Pods-TermPaper.debug.xcconfig */,
+				C2533BE5530438D9DC9B16BF /* Pods-TermPaper.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		87AABD78A97EE137E9734064 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE669546245B270600FAFD66 /* Aeris.bundle */,
+				FE66D293245B0C7C00CADCCA /* OpenWeatherMapAPIConsumer.framework */,
+				FE66D28F245B0A4800CADCCA /* ForecastView.framework */,
+				FE9DDAC1245B008500338A62 /* SwiftyJSON.framework */,
+				FE9DDABA245B008000338A62 /* Alamofire.framework */,
+				FE9DDABB245B008000338A62 /* OpenWeatherSwift.framework */,
+				FE9DDAB0245AEA7200338A62 /* WeatherKit.framework */,
+				FE9DDAAE245AE8B300338A62 /* WeatherKit.framework */,
+				FE9DDAAA245AE6DC00338A62 /* WeatherKit.framework */,
+				428DC1F09D2298B619AA0974 /* Pods_TermPaper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE5B694A2473F43C00C5B1E8 /* TermpaperTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE5B694B2473F43C00C5B1E8 /* TermpaperTests.swift */,
+				FE5B694D2473F43C00C5B1E8 /* Info.plist */,
+			);
+			path = TermpaperTests;
+			sourceTree = "<group>";
+		};
+		FE5FA17A245B30930022645B /* weather */ = {
+			isa = PBXGroup;
+			children = (
+				FE5FA17B245B31110022645B /* MainForWeather.storyboard */,
+				FE5FA17C245B31110022645B /* weatherVC.swift */,
+			);
+			path = weather;
+			sourceTree = "<group>";
+		};
+		FE7BF3B6241D097000EE8F3D /* button 1 */ = {
+			isa = PBXGroup;
+			children = (
+				FE7BF3B9241D09DA00EE8F3D /* mainStoryboardForButton1.storyboard */,
+				FE7BF3C1241D0AD100EE8F3D /* Button1VC.swift */,
+				FE22A55A24290BB2008BE3D3 /* DatePickerVC.swift */,
+				FE17206E24573E5B001E77CF /* BluredVC.swift */,
+			);
+			path = "button 1";
+			sourceTree = "<group>";
+		};
+		FE7BF3B7241D097D00EE8F3D /* button 2 */ = {
+			isa = PBXGroup;
+			children = (
+				FECB22702462E52200BF5DD0 /* mainButton2.storyboard */,
+				FECB226A2462D7C300BF5DD0 /* mainForButton2VC.swift */,
+			);
+			path = "button 2";
+			sourceTree = "<group>";
+		};
+		FE7BF3B8241D098300EE8F3D /* button 3 */ = {
+			isa = PBXGroup;
+			children = (
+				FE5FA17A245B30930022645B /* weather */,
+			);
+			path = "button 3";
+			sourceTree = "<group>";
+		};
+		FEEF00802406DA010011FA03 = {
+			isa = PBXGroup;
+			children = (
+				FEEF008B2406DA010011FA03 /* TermPaper */,
+				FE5B694A2473F43C00C5B1E8 /* TermpaperTests */,
+				FEEF008A2406DA010011FA03 /* Products */,
+				44F0455EFD433BFF74A2F596 /* Pods */,
+				87AABD78A97EE137E9734064 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FEEF008A2406DA010011FA03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEEF00892406DA010011FA03 /* TermPaper.app */,
+				FE5B69492473F43C00C5B1E8 /* TermpaperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEEF008B2406DA010011FA03 /* TermPaper */ = {
+			isa = PBXGroup;
+			children = (
+				FEEF00922406DA010011FA03 /* Main.storyboard */,
+				FE7BF3B6241D097000EE8F3D /* button 1 */,
+				FE7BF3B8241D098300EE8F3D /* button 3 */,
+				FE7BF3B7241D097D00EE8F3D /* button 2 */,
+				FEEF008E2406DA010011FA03 /* SceneDelegate.swift */,
+				FEEF00952406DA070011FA03 /* Assets.xcassets */,
+				FEEF009A2406DA070011FA03 /* Info.plist */,
+				FEEF008C2406DA010011FA03 /* AppDelegate.swift */,
+			);
+			path = TermPaper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE5B69482473F43C00C5B1E8 /* TermpaperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE5B69502473F43C00C5B1E8 /* Build configuration list for PBXNativeTarget "TermpaperTests" */;
+			buildPhases = (
+				FE5B69452473F43C00C5B1E8 /* Sources */,
+				FE5B69462473F43C00C5B1E8 /* Frameworks */,
+				FE5B69472473F43C00C5B1E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE5B694F2473F43C00C5B1E8 /* PBXTargetDependency */,
+			);
+			name = TermpaperTests;
+			productName = TermpaperTests;
+			productReference = FE5B69492473F43C00C5B1E8 /* TermpaperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FEEF00882406DA010011FA03 /* TermPaper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEEF009D2406DA070011FA03 /* Build configuration list for PBXNativeTarget "TermPaper" */;
+			buildPhases = (
+				BB4DEB7C05CE91032282128A /* [CP] Check Pods Manifest.lock */,
+				FEEF00852406DA010011FA03 /* Sources */,
+				FEEF00862406DA010011FA03 /* Frameworks */,
+				FEEF00872406DA010011FA03 /* Resources */,
+				E11A6949230685BCD47163CF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TermPaper;
+			productName = TermPaper;
+			productReference = FEEF00892406DA010011FA03 /* TermPaper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEEF00812406DA010011FA03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = Anasva;
+				TargetAttributes = {
+					FE5B69482473F43C00C5B1E8 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = FEEF00882406DA010011FA03;
+					};
+					FEEF00882406DA010011FA03 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FEEF00842406DA010011FA03 /* Build configuration list for PBXProject "TermPaper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEEF00802406DA010011FA03;
+			productRefGroup = FEEF008A2406DA010011FA03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEEF00882406DA010011FA03 /* TermPaper */,
+				FE5B69482473F43C00C5B1E8 /* TermpaperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE5B69472473F43C00C5B1E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEEF00872406DA010011FA03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEEF00962406DA070011FA03 /* Assets.xcassets in Resources */,
+				FE5FA17D245B31110022645B /* MainForWeather.storyboard in Resources */,
+				FEEF00942406DA010011FA03 /* Main.storyboard in Resources */,
+				FE7BF3BA241D09DA00EE8F3D /* mainStoryboardForButton1.storyboard in Resources */,
+				FECB22712462E52200BF5DD0 /* mainButton2.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BB4DEB7C05CE91032282128A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TermPaper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E11A6949230685BCD47163CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TermPaper/Pods-TermPaper-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TermPaper/Pods-TermPaper-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TermPaper/Pods-TermPaper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE5B69452473F43C00C5B1E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE5B694C2473F43C00C5B1E8 /* TermpaperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEEF00852406DA010011FA03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE7BF3C2241D0AD100EE8F3D /* Button1VC.swift in Sources */,
+				FE22A55B24290BB2008BE3D3 /* DatePickerVC.swift in Sources */,
+				FE5FA17E245B31110022645B /* weatherVC.swift in Sources */,
+				FECB226B2462D7C300BF5DD0 /* mainForButton2VC.swift in Sources */,
+				FEEF008D2406DA010011FA03 /* AppDelegate.swift in Sources */,
+				FE17206F24573E5C001E77CF /* BluredVC.swift in Sources */,
+				FEEF008F2406DA010011FA03 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE5B694F2473F43C00C5B1E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEEF00882406DA010011FA03 /* TermPaper */;
+			targetProxy = FE5B694E2473F43C00C5B1E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FEEF00922406DA010011FA03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEEF00932406DA010011FA03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE5B69512473F43C00C5B1E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2RZ63TG7W;
+				INFOPLIST_FILE = TermpaperTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anasva.TermpaperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TermPaper.app/TermPaper";
+			};
+			name = Debug;
+		};
+		FE5B69522473F43C00C5B1E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2RZ63TG7W;
+				INFOPLIST_FILE = TermpaperTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anasva.TermpaperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TermPaper.app/TermPaper";
+			};
+			name = Release;
+		};
+		FEEF009B2406DA070011FA03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FEEF009C2406DA070011FA03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEEF009E2406DA070011FA03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59E20EEFA0F381889CFBBB60 /* Pods-TermPaper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2RZ63TG7W;
+				INFOPLIST_FILE = TermPaper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anasva.TermPaper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FEEF009F2406DA070011FA03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2533BE5530438D9DC9B16BF /* Pods-TermPaper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2RZ63TG7W;
+				INFOPLIST_FILE = TermPaper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anasva.TermPaper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE5B69502473F43C00C5B1E8 /* Build configuration list for PBXNativeTarget "TermpaperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE5B69512473F43C00C5B1E8 /* Debug */,
+				FE5B69522473F43C00C5B1E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEEF00842406DA010011FA03 /* Build configuration list for PBXProject "TermPaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEEF009B2406DA070011FA03 /* Debug */,
+				FEEF009C2406DA070011FA03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEEF009D2406DA070011FA03 /* Build configuration list for PBXNativeTarget "TermPaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEEF009E2406DA070011FA03 /* Debug */,
+				FEEF009F2406DA070011FA03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEEF00812406DA010011FA03 /* Project object */;
+}

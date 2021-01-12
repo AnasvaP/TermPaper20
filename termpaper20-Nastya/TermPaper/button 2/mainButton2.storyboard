@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3Pa-K2-vvz">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main For Button2VC-->
+        <scene sceneID="ki7-qX-xej">
+            <objects>
+                <viewController storyboardIdentifier="mainForButton2VC" id="3Pa-K2-vvz" customClass="mainForButton2VC" customModule="TermPaper" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eB0-D0-F4H">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background1" translatesAutoresizingMaskIntoConstraints="NO" id="2xT-N4-DQr">
+                                <rect key="frame" x="0.0" y="363.5" width="375" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="GeX-uy-MNn"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="натисни на символ, якщо завдання виконане" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jmD-ua-weh">
+                                <rect key="frame" x="0.0" y="456.5" width="375" height="54"/>
+                                <fontDescription key="fontDescription" name="Menlo-BoldItalic" family="Menlo" pointSize="23"/>
+                                <color key="textColor" red="1" green="0.96386250438621601" blue="0.88194515118831085" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="L2G-2O-M4f">
+                                <rect key="frame" x="7.5" y="15" width="40" height="230"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" highlighted="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T49-qH-xEE">
+                                        <rect key="frame" x="0.0" y="0.0" width="40" height="30"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="OqA-kl-YoP"/>
+                                            <constraint firstAttribute="width" constant="40" id="g3C-l8-wfH"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" image="moon.circle" catalog="system">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="doneButton1:" destination="3Pa-K2-vvz" eventType="touchUpInside" id="188-B4-pud"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" highlighted="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QfX-hu-oYt">
+                                        <rect key="frame" x="0.0" y="40" width="40" height="30"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="OSr-HX-94v"/>
+                                            <constraint firstAttribute="height" constant="30" id="WjN-j6-c5B"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" image="moon.fill" catalog="system">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="doneButton2:" destination="3Pa-K2-vvz" eventType="touchUpInside" id="6za-Jk-obr"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" highlighted="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lJm-FS-Ble">
+                                        <rect key="frame" x="0.0" y="80" width="40" height="30"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="KAK-XH-yly"/>
+                                            <constraint firstAttribute="width" constant="40" id="Wxb-Ye-nde"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" image="zzz" catalog="system">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="doneButton3:" destination="3Pa-K2-vvz" eventType="touchUpInside" id="uJL-8x-3zE"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" highlighted="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4q6-oO-jSR">
+                                        <rect key="frame" x="0.0" y="120" width="40" height="30"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="6Bw-M7-E0J"/>
+                                            <constraint firstAttribute="height" constant="30" id="L9r-wI-eAL"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" image="moon.circle.fill" catalog="system">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="doneButton4:" destination="3Pa-K2-vvz" eventType="touchUpInside" id="bzw-tl-jIJ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" highlighted="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lia-l4-J7w">
+                                        <rect key="frame" x="0.0" y="160" width="40" height="30"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="ATC-QA-4zZ"/>
+                                            <constraint firstAttribute="height" constant="30" id="FXI-Vb-9oK"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" image="sparkles" catalog="system">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="doneButton5:" destination="3Pa-K2-vvz" eventType="touchUpInside" id="0bo-Nb-9nN"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" highlighted="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eru-2F-HyX">
+                                        <rect key="frame" x="0.0" y="200" width="40" height="30"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="MdC-ok-gX9"/>
+                                            <constraint firstAttribute="width" constant="40" id="z01-UE-gK4"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" image="moon" catalog="system">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="doneButton6:" destination="3Pa-K2-vvz" eventType="touchUpInside" id="gWZ-J5-Tcm"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" multipleTouchEnabled="YES" contentMode="scaleAspectFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="r6J-zk-f6V">
+                                <rect key="frame" x="27.5" y="368.5" width="320" height="230"/>
+                                <subviews>
+                                    <textField opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8eZ-Ff-8dK">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="30"/>
+                                        <color key="backgroundColor" red="0.75379781465177675" green="0.6939484568697234" blue="0.68687693692669671" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <gestureRecognizers/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="320" id="LNO-Ad-MDK"/>
+                                            <constraint firstAttribute="height" constant="30" id="Uox-be-tCN"/>
+                                        </constraints>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Menlo-Italic" family="Menlo" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="ib1-WT-P7A" appends="YES" id="Zwc-yD-swx"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xIh-5Q-RFb">
+                                        <rect key="frame" x="0.0" y="40" width="320" height="30"/>
+                                        <color key="backgroundColor" red="0.75379781469999996" green="0.69394845689999995" blue="0.68687693689999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <gestureRecognizers/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="320" id="1Dc-VU-tOs"/>
+                                            <constraint firstAttribute="height" constant="30" id="rHY-tM-o6x"/>
+                                        </constraints>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Menlo-Italic" family="Menlo" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="hwF-Yy-B6D" appends="YES" id="HK6-mD-RSb"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dhz-Qg-CeP">
+                                        <rect key="frame" x="0.0" y="80" width="320" height="30"/>
+                                        <color key="backgroundColor" red="0.75379781469999996" green="0.69394845689999995" blue="0.68687693689999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <gestureRecognizers/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="320" id="VKD-TJ-fBo"/>
+                                            <constraint firstAttribute="height" constant="30" id="z7d-Wy-oRr"/>
+                                        </constraints>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Menlo-Italic" family="Menlo" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="Fb8-kZ-Wqn" appends="YES" id="uXM-v4-Seg"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dLy-Gg-o9L">
+                                        <rect key="frame" x="0.0" y="120" width="320" height="30"/>
+                                        <color key="backgroundColor" red="0.75379781469999996" green="0.69394845689999995" blue="0.68687693689999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <gestureRecognizers/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="06u-hP-ZkP"/>
+                                            <constraint firstAttribute="width" constant="320" id="bkr-zz-Von"/>
+                                        </constraints>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Menlo-Italic" family="Menlo" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="2ug-K2-Zmq" appends="YES" id="Su0-2p-Cv7"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Mqy-Lv-iH9">
+                                        <rect key="frame" x="0.0" y="160" width="320" height="30"/>
+                                        <color key="backgroundColor" red="0.75379781469999996" green="0.69394845689999995" blue="0.68687693689999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <gestureRecognizers/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="7aH-A9-eiP"/>
+                                            <constraint firstAttribute="width" constant="320" id="YZV-5Q-e1X"/>
+                                        </constraints>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Menlo-Italic" family="Menlo" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="dv9-E3-vki" appends="YES" id="I09-et-tCi"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="g13-R8-MtY">
+                                        <rect key="frame" x="0.0" y="200" width="320" height="30"/>
+                                        <color key="backgroundColor" red="0.75379781469999996" green="0.69394845689999995" blue="0.68687693689999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <gestureRecognizers/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="dKo-7h-BaW"/>
+                                            <constraint firstAttribute="width" constant="320" id="yI6-eA-l4G"/>
+                                        </constraints>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Menlo-Italic" family="Menlo" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="092-Ha-XRa" appends="YES" id="Siy-lY-Ap0"/>
+                                        </connections>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progressImage="sparkles" catalog="system" trackImage="sparkles" translatesAutoresizingMaskIntoConstraints="NO" id="Qt9-8R-vzW">
+                                <rect key="frame" x="16" y="265" width="343" height="3"/>
+                                <color key="backgroundColor" red="0.75379781469999996" green="0.69394845689999995" blue="0.68687693689999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="3" id="dfo-2d-JJD"/>
+                                </constraints>
+                                <color key="progressTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="trackTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </progressView>
+                            <stackView opaque="NO" contentMode="scaleAspectFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="U7x-sJ-ePM">
+                                <rect key="frame" x="52.5" y="15" width="320" height="230"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="спершу я зроблю.." minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="W9c-x1-fcJ">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="30"/>
+                                        <color key="backgroundColor" red="0.87374150120000005" green="0.81125716719999996" blue="0.79476602460000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <gestureRecognizers/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="X9a-Cg-D0k"/>
+                                            <constraint firstAttribute="width" constant="320" id="iPF-GQ-QhM"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Menlo-Italic" family="Menlo" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="3VE-wQ-CGA" appends="YES" id="koG-RE-NMf"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="далі виконаю.." minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ATp-Vv-4Bz">
+                                        <rect key="frame" x="0.0" y="40" width="320" height="30"/>
+                                        <color key="backgroundColor" red="0.87374150120000005" green="0.81125716719999996" blue="0.79476602460000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <gestureRecognizers/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="dag-fy-GgC"/>
+                                            <constraint firstAttribute="width" constant="320" id="ral-td-PdK"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Menlo-Italic" family="Menlo" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="jfk-pX-Fc3" appends="YES" id="mN0-dK-48h"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="а ще я хочу.." minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9ci-x0-ThY">
+                                        <rect key="frame" x="0.0" y="80" width="320" height="30"/>
+                                        <color key="backgroundColor" red="0.87374150120000005" green="0.81125716719999996" blue="0.79476602460000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <gestureRecognizers/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="2xM-tG-tvt"/>
+                                            <constraint firstAttribute="width" constant="320" id="Y7Z-Wn-2gJ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Menlo-Italic" family="Menlo" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="oZw-Co-9Es" appends="YES" id="obW-AC-I4G"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="і це також хочу.." minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zYH-YR-3cb">
+                                        <rect key="frame" x="0.0" y="120" width="320" height="30"/>
+                                        <color key="backgroundColor" red="0.87374150120000005" green="0.81125716719999996" blue="0.79476602460000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <gestureRecognizers/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="320" id="27w-2a-jSJ"/>
+                                            <constraint firstAttribute="height" constant="30" id="Ejm-Hk-0k8"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Menlo-Italic" family="Menlo" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="Vhf-Py-cTa" appends="YES" id="WZD-ey-H5i"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="наступне у списку.." minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="d1F-Q7-gUi">
+                                        <rect key="frame" x="0.0" y="160" width="320" height="30"/>
+                                        <color key="backgroundColor" red="0.87374150120000005" green="0.81125716719999996" blue="0.79476602460000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <gestureRecognizers/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="320" id="PH9-js-3iw"/>
+                                            <constraint firstAttribute="height" constant="30" id="qPq-Gv-RBt"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Menlo-Italic" family="Menlo" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="LU2-BA-7Ot" appends="YES" id="MMh-8H-naq"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="і.." minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mwV-iq-ev9">
+                                        <rect key="frame" x="0.0" y="200" width="320" height="30"/>
+                                        <color key="backgroundColor" red="0.87374150120000005" green="0.81125716719999996" blue="0.79476602460000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <gestureRecognizers/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="QQP-HQ-OHc"/>
+                                            <constraint firstAttribute="width" constant="320" id="fAY-nb-54H"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Menlo-Italic" family="Menlo" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="bOE-ki-gKG" appends="YES" id="Fvq-cQ-jms"/>
+                                        </connections>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.91632848980000003" green="0.83687734599999997" blue="0.79929918050000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.91632848980000003" green="0.83687734599999997" blue="0.79929918050000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="2xT-N4-DQr" firstAttribute="leading" secondItem="N5X-aL-iVF" secondAttribute="leading" id="CGX-9R-8mt"/>
+                            <constraint firstItem="r6J-zk-f6V" firstAttribute="centerY" secondItem="eB0-D0-F4H" secondAttribute="centerY" constant="150" id="EcH-GD-qlh"/>
+                            <constraint firstItem="2xT-N4-DQr" firstAttribute="trailing" secondItem="N5X-aL-iVF" secondAttribute="trailing" id="MaR-EB-hee"/>
+                            <constraint firstItem="L2G-2O-M4f" firstAttribute="top" secondItem="N5X-aL-iVF" secondAttribute="top" constant="15" id="OXm-vO-bvx"/>
+                            <constraint firstItem="Qt9-8R-vzW" firstAttribute="trailing" secondItem="eB0-D0-F4H" secondAttribute="trailingMargin" id="eDU-nt-Sej"/>
+                            <constraint firstItem="2xT-N4-DQr" firstAttribute="centerY" secondItem="eB0-D0-F4H" secondAttribute="centerY" constant="150" id="gjJ-Kt-TTG"/>
+                            <constraint firstItem="jmD-ua-weh" firstAttribute="centerY" secondItem="eB0-D0-F4H" secondAttribute="centerY" constant="150" id="jzK-yy-gDE"/>
+                            <constraint firstItem="L2G-2O-M4f" firstAttribute="centerY" secondItem="U7x-sJ-ePM" secondAttribute="centerY" id="lDi-p8-mpQ"/>
+                            <constraint firstItem="Qt9-8R-vzW" firstAttribute="leading" secondItem="eB0-D0-F4H" secondAttribute="leadingMargin" id="ldU-ya-ILa"/>
+                            <constraint firstItem="jmD-ua-weh" firstAttribute="centerX" secondItem="eB0-D0-F4H" secondAttribute="centerX" id="ljR-7S-mnH"/>
+                            <constraint firstItem="jmD-ua-weh" firstAttribute="trailing" secondItem="N5X-aL-iVF" secondAttribute="trailing" id="qHB-00-bY2"/>
+                            <constraint firstItem="L2G-2O-M4f" firstAttribute="centerX" secondItem="eB0-D0-F4H" secondAttribute="centerX" constant="-160" id="qoc-Qa-fOk"/>
+                            <constraint firstItem="r6J-zk-f6V" firstAttribute="centerX" secondItem="eB0-D0-F4H" secondAttribute="centerX" id="u36-Vu-z2i"/>
+                            <constraint firstItem="Qt9-8R-vzW" firstAttribute="top" secondItem="U7x-sJ-ePM" secondAttribute="bottom" constant="20" id="wUH-2q-WQJ"/>
+                            <constraint firstItem="U7x-sJ-ePM" firstAttribute="top" secondItem="N5X-aL-iVF" secondAttribute="top" constant="15" id="xR8-Z7-rV2"/>
+                            <constraint firstItem="jmD-ua-weh" firstAttribute="leading" secondItem="N5X-aL-iVF" secondAttribute="leading" id="ybg-sO-1x3"/>
+                            <constraint firstItem="U7x-sJ-ePM" firstAttribute="leading" secondItem="L2G-2O-M4f" secondAttribute="trailing" constant="5" id="z0l-Rn-ZV5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="N5X-aL-iVF"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="VeB-1G-IDJ" appends="YES" id="zFa-yH-moj"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="done1Label" destination="T49-qH-xEE" id="hP6-kF-c16"/>
+                        <outlet property="done2Label" destination="QfX-hu-oYt" id="Vg9-Qh-2bS"/>
+                        <outlet property="done3Label" destination="lJm-FS-Ble" id="4rB-Mt-Qh7"/>
+                        <outlet property="done4Label" destination="4q6-oO-jSR" id="Etp-HD-wkb"/>
+                        <outlet property="done5Label" destination="Lia-l4-J7w" id="esN-Xs-TQd"/>
+                        <outlet property="done6Label" destination="eru-2F-HyX" id="P1q-Ct-lpO"/>
+                        <outlet property="progresView" destination="Qt9-8R-vzW" id="RfJ-m6-t6Y"/>
+                        <outlet property="textField1" destination="W9c-x1-fcJ" id="tgp-Ph-z3f"/>
+                        <outlet property="textField2" destination="ATp-Vv-4Bz" id="hNm-jH-Ckp"/>
+                        <outlet property="textField3" destination="9ci-x0-ThY" id="Gbx-xZ-BCp"/>
+                        <outlet property="textField4" destination="zYH-YR-3cb" id="PW9-5i-CVr"/>
+                        <outlet property="textField5" destination="d1F-Q7-gUi" id="m2j-Nx-huv"/>
+                        <outlet property="textField6" destination="mwV-iq-ev9" id="yT6-XZ-YrJ"/>
+                        <outlet property="textFieldForDoneTask1" destination="8eZ-Ff-8dK" id="84x-tU-gxt"/>
+                        <outlet property="textFieldForDoneTask2" destination="xIh-5Q-RFb" id="sTB-mk-GTR"/>
+                        <outlet property="textFieldForDoneTask3" destination="dhz-Qg-CeP" id="ERl-aB-7V9"/>
+                        <outlet property="textFieldForDoneTask4" destination="dLy-Gg-o9L" id="JlX-qn-fRf"/>
+                        <outlet property="textFieldForDoneTask5" destination="Mqy-Lv-iH9" id="w5h-mm-M0r"/>
+                        <outlet property="textFieldForDoneTask6" destination="g13-R8-MtY" id="NM1-lz-50k"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Vp-u9-ZTr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="VeB-1G-IDJ">
+                    <connections>
+                        <action selector="hideKeyboardAndSaveText:" destination="3Pa-K2-vvz" id="cbY-HH-W6w"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="3VE-wQ-CGA">
+                    <connections>
+                        <action selector="delete1:" destination="3Pa-K2-vvz" id="9wQ-ea-dbE"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="jfk-pX-Fc3">
+                    <connections>
+                        <action selector="delete2:" destination="3Pa-K2-vvz" id="0Pd-yT-esH"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="oZw-Co-9Es">
+                    <connections>
+                        <action selector="delete3:" destination="3Pa-K2-vvz" id="PAw-mW-Xf5"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="Vhf-Py-cTa">
+                    <connections>
+                        <action selector="delete4:" destination="3Pa-K2-vvz" id="91S-px-2GY"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="LU2-BA-7Ot">
+                    <connections>
+                        <action selector="delete5:" destination="3Pa-K2-vvz" id="2me-xC-sXZ"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="bOE-ki-gKG">
+                    <connections>
+                        <action selector="delete6:" destination="3Pa-K2-vvz" id="JyN-GK-jI0"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <pinchGestureRecognizer id="ib1-WT-P7A">
+                    <connections>
+                        <action selector="deleteNextFieldForDoneTask1:" destination="3Pa-K2-vvz" id="XO0-wQ-Wzf"/>
+                    </connections>
+                </pinchGestureRecognizer>
+                <pinchGestureRecognizer id="hwF-Yy-B6D">
+                    <connections>
+                        <action selector="deleteNextFieldForDoneTask2:" destination="3Pa-K2-vvz" id="AM3-sa-z7T"/>
+                    </connections>
+                </pinchGestureRecognizer>
+                <pinchGestureRecognizer id="Fb8-kZ-Wqn">
+                    <connections>
+                        <action selector="deleteNextFieldForDoneTask3:" destination="3Pa-K2-vvz" id="7VN-RK-TDX"/>
+                    </connections>
+                </pinchGestureRecognizer>
+                <pinchGestureRecognizer id="2ug-K2-Zmq">
+                    <connections>
+                        <action selector="deleteNextFieldForDoneTask4:" destination="3Pa-K2-vvz" id="DE3-EG-4ZF"/>
+                    </connections>
+                </pinchGestureRecognizer>
+                <pinchGestureRecognizer id="dv9-E3-vki">
+                    <connections>
+                        <action selector="deleteNextFieldForDoneTask5:" destination="3Pa-K2-vvz" id="nig-5H-zsL"/>
+                    </connections>
+                </pinchGestureRecognizer>
+                <pinchGestureRecognizer id="092-Ha-XRa">
+                    <connections>
+                        <action selector="deleteNextFieldForDoneTask6:" destination="3Pa-K2-vvz" id="G9Y-rI-90n"/>
+                    </connections>
+                </pinchGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="93.599999999999994" y="109.29535232383809"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background1" width="250" height="250"/>
+        <image name="moon" catalog="system" width="128" height="121"/>
+        <image name="moon.circle" catalog="system" width="128" height="121"/>
+        <image name="moon.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="moon.fill" catalog="system" width="128" height="121"/>
+        <image name="sparkles" catalog="system" width="112" height="128"/>
+        <image name="zzz" catalog="system" width="121" height="128"/>
+    </resources>
+</document>
